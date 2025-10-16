@@ -82,12 +82,7 @@ Este paso es crucial para asegurar que tus commits queden asociados a tu usuario
     ```
 2.  **Crear el Pull Request (PR):**
     * Ve a la página de tu repositorio forkeado en GitHub.
-    * Verás una notificación para crear un "Pull Request" desde tu rama recién subida. Haz clic en "Compare & pull request".
-    * Asegúrate de que la configuración sea:
-        * **base repository:** El repositorio original del profesor.
-        * **base:** `main`
-        * **head repository:** Tu repositorio forkeado.
-        * **compare:** `TuNombreCompletoPascalCase`
+    * Verás una notificación para crear un "Pull Request" desde tu rama recién subida. Haz clic en "Compare & pull request". En caso de que no aparezca, es necesario crearla desde la pestala Pull Request
     * El título del PR debe ser: `Entrega Taller Asincronismo - Tu Nombre Completo`.
     * Haz clic en "Create pull request".
 
