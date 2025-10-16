@@ -1,8 +1,7 @@
-# 🚀 Taller Evaluativo: Flujo de Trabajo Git y Asincronismo en JS
-
+# 🚀 Taller Evaluativo: Flujo de Trabajo Git y Frameworks de CSS
 ¡Bienvenido/a a este taller!
 
-El objetivo de esta actividad es doble: primero, aplicar un flujo de trabajo profesional utilizando Git, desde la clonación y configuración hasta la entrega de cambios mediante un Pull Request. Segundo, investigar y documentar los conceptos fundamentales del asincronismo en JavaScript.
+El objetivo de esta actividad es doble: primero, aplicar un flujo de trabajo profesional utilizando Git, desde la clonación y configuración hasta la entrega de cambios mediante un Pull Request. Segundo, investigar y entender los conceptos de Frmeworks de css.
 
 **La correcta aplicación del flujo de Git es una parte fundamental de la evaluación.**
 
@@ -10,7 +9,7 @@ El objetivo de esta actividad es doble: primero, aplicar un flujo de trabajo pro
 
 * Aplicar el flujo completo de Git: Fork, Clone, Branch, Commit, Push y Pull Request.
 * Configurar credenciales de Git y mantener un historial de commits limpio y atómico.
-* Explicar los conceptos clave del asincronismo en JavaScript: Call Stack, Callbacks, Promesas y Async/Await.
+* Explicar los conceptos clave de CSS: Frameworks, BEM, Espesificidad.
 
 ## 🛠️ Instrucciones y Flujo de Trabajo Obligatorio
 
@@ -63,7 +62,7 @@ Este paso es crucial para asegurar que tus commits queden asociados a tu usuario
 ### Parte 4: Desarrollo de la Consulta
 
 1.  **Responder en el Archivo:** Abre el archivo `CONSULTA.MD` y comienza a responder las preguntas que se encuentran allí.
-2.  **Realizar Commits por Avance:** La consulta está dividida en partes. Se espera que realices **al menos un commit por cada pregunta principal respondida**. Esto resultará en aproximadamente 4-5 commits adicionales al inicial. Usa mensajes de commit descriptivos (ej: `docs: resuelve pregunta sobre el Call Stack`).
+2.  **Realizar Commits por Avance:** La consulta está dividida en partes. Se espera que realices **al menos un commit por cada pregunta principal respondida**. Esto resultará en aproximadamente 4-5 commits adicionales al inicial. Usa mensajes de commit descriptivos (ej: `docs: resuelve pregunta sobre Bootstrap`).
     ```bash
     # Ciclo de trabajo por cada pregunta
     # 1. Respondes la pregunta en CONSULTA.MD
@@ -83,7 +82,7 @@ Este paso es crucial para asegurar que tus commits queden asociados a tu usuario
 2.  **Crear el Pull Request (PR):**
     * Ve a la página de tu repositorio forkeado en GitHub.
     * Verás una notificación para crear un "Pull Request" desde tu rama recién subida. Haz clic en "Compare & pull request". En caso de que no aparezca, es necesario crearla desde la pestala Pull Request
-    * El título del PR debe ser: `Entrega Taller Asincronismo - Tu Nombre Completo`.
+    * El título del PR debe ser: `Entrega Taller Frameworks CSS - Tu Nombre Completo`.
     * Haz clic en "Create pull request".
 
 **¡Y listo! La entrega final es el Pull Request. No se requiere ningún otro tipo de envío.**
