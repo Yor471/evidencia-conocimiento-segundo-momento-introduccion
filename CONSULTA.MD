@@ -8,8 +8,15 @@
 * **1.2.** ¿Qué problemas principales vienen a solucionar los frameworks de CSS en el desarrollo web? Menciona y explica al menos dos ventajas clave de utilizarlos.
 
 **[ESPACIO PARA TU RESPUESTA 1]**
+1. ¿Qué es?
+Un Framework de CSS es como un kit de Lego ya preparado para construir páginas web. En lugar de hacer cada pieza de diseño desde cero (escribir mucho CSS), ya tienes botones, menús, colores y formas listos para usar, solo tienes que unirlos.
 
----
+1.1 Para qué sirve?
+Resuelve dos problemas principales:
+
+Hacerlo Rápido: Acelera la creación de la página. Usas clases predefinidas (como botón-azul) en lugar de escribir 20 líneas de código cada vez
+
+Que se Vea Bien y Uniforme: Asegura que todos los botones, títulos y secciones se vean exactamente iguales y profesionales en todas las páginas.
 
 ### Pregunta 2: Bootstrap CSS - El Ecosistema Basado en Componentes
 
