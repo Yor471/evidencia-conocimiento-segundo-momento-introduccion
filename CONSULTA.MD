@@ -25,6 +25,27 @@ Que se Vea Bien y Uniforme: Asegura que todos los botones, títulos y secciones 
 * **2.3.** Basado en tu investigación, menciona dos **ventajas** y dos **desventajas** claras de usar Bootstrap en un proyecto.
 
 **[ESPACIO PARA TU RESPUESTA 2]**
+2.1 Filosofía (¿Qué busca?)
+La idea de Bootstrap es que tú puedas hacer una web súper rápido usando piezas que ya están hechas (los componentes). Piensa en esto:
+
+Es Mobile-First: Primero piensa en cómo se verá tu web en el celular. Si funciona bien ahí, solo tiene que crecer para verse bien en una tablet o computadora. 📱
+
+Kit de Componentes: Te da botones, menús, tarjetas... todo listo. Solo pones las clases (.btn-success) y ya se ven geniales.
+
+2.2 Clases Fundamentales (10 Ejemplos Clave)Clase¿Qué Hace?.containerPone tu contenido en el centro y le da un ancho fijo para que se vea ordenado..rowCrea una fila para organizar cosas horizontalmente..col-6Divide una fila en 12 partes, y esta clase ocupa 6 (la mitad)..btn-primaryConvierte algo en un botón azul bonito y con estilo..navbarCrea la barra de navegación (el menú superior) lista para usarse..cardCrea un recuadro bonito para agrupar información (como una ficha o tarjeta)..d-flexPrepara el elemento para que puedas alinear cosas fácilmente (como centrar texto)..mt-4Añade un margen (espacio) arriba para que el elemento no esté pegado al de arriba..text-centerCentra el texto..form-controlEstiliza un campo de formulario para que se vea moderno y uniforme.
+
+2.3 Pros y Contras
+Ventajas (Lo bueno de usar Bootstrap)
+
+Súper Rápido: Puedes armar una web responsiva (que se adapta a móviles) en horas, no en días, porque ya tienes casi todo hecho. (Ahorro de Tiempo ⏱️)
+
+Todo se ve igual: Los estilos son consistentes, así que el diseño se ve profesional y ordenado en todas las páginas.
+
+Desventajas (Lo no tan bueno de usar Bootstrap)
+
+Código Extra (Bloat): A veces, el kit trae cosas que no usas y eso hace la web un poco más pesada de cargar.
+
+Se ven parecidas: Muchas webs usan los estilos por defecto de Bootstrap, así que tu web puede verse "genérica" si no la personalizas mucho.
 
 ---
 
