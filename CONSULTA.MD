@@ -160,15 +160,17 @@ CSS
 ### Pregunta 5: Frameworks y CSS Puro - Conflictos y Convivencia
 
 * **5.1.** ¿Es posible usar hojas de estilos personalizadas (CSS puro) junto a un framework? Explica las implicaciones y el orden en que deberían cargarse los archivos CSS en el HTML.
+
 * **5.2.** Investiga sobre la **especificidad de CSS**. ¿Qué es y cómo puede generar conflictos al intentar sobreescribir un estilo de un framework? ¿Qué regla de estilo es más específica: la de una clase del framework (ej. `.btn-primary`) o una regla que tú escribas en tu CSS (ej. `#mi-boton-especial`)?
+
 * **5.3.** ¿Es técnicamente posible y/o recomendable usar Bootstrap, Tailwind CSS y una hoja de estilos propia en un mismo proyecto? Argumenta sobre los posibles conflictos (ej. reseteo de estilos, colisión de nombres de clases) y problemas de rendimiento que esto podría causar.
 
 **[ESPACIO PARA TU RESPUESTA 5]**
 
 5.1 Usar CSS Puro con un FrameworkSí, es totalmente posible usar tu propio CSS puro junto a un framework como Bootstrap o Tailwind. De hecho, es lo más común, ya que necesitas agregar tus propios toques únicos que el framework no tiene.Implicación: Tu CSS se usa principalmente para personalizar los componentes del framework (cambiar colores, fuentes) o para crear nuevos componentes únicos que no están en el kit base.Orden de Carga Importante: Para que tu CSS pueda modificar los estilos del framework, tu archivo CSS debe cargarse después del archivo del framework en la etiqueta <head> del HTML.Orden CorrectoResultado1. Framework CSS (ej. bootstrap.css)Carga los estilos base del framework.2. Tu CSS Personalizado (ej. styles.css)Sobreescribe los estilos del framework, aplicando tus cambios finales.
----
+
 5.2 Especificidad de CSS (Reglas de Pelea)La especificidad de CSS es un sistema de puntuación que usa el navegador para decidir qué regla de estilo debe aplicarse cuando hay varias reglas compitiendo por el mismo elemento. Es como si el navegador tuviera que decidir quién gana una "pelea" de estilos.Conflicto: Si quieres que tu botón se vea rojo, pero el framework (ej. Bootstrap) lo hizo azul con la clase .btn-primary, el navegador tiene que decidir cuál gana.Regla Ganadora (Más Específica): La regla de estilo que tú escribas usando un ID (ej. #mi-boton-especial) es MUCHO más específica que cualquier regla de clase del framework (ej. .btn-primary).SelectorPuntuación de EspecificidadTu ID (#mi-boton-especial)100Clase del Framework (.btn-primary)10
----
+
 5.3 Usar Bootstrap, Tailwind y CSS Puro JuntosTécnicamente, es posible, pero NO es recomendable. Es como usar tres kits de herramientas diferentes para construir la misma cosa.FrameworkProblema que CausaRendimientoBootstrapCarga una gran cantidad de CSS y JavaScript de componentes que quizás no uses.Lento: Archivo CSS muy grande.TailwindCarga miles de clases de utilidad que compiten en nombres (ej. w-50 vs w-1/2).Riesgo: Conflicto de reseteo de estilos entre frameworks.CSS PuroSe mezcla con el código de arriba, haciéndolo difícil de rastrear.
 
 Argumento:Colisión de Nombres y Estilos: Bootstrap y Tailwind tienen reglas base y resets que se anulan entre sí. 
