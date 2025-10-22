@@ -28,7 +28,7 @@ Que se Vea Bien y Uniforme: Asegura que todos los botones, títulos y secciones 
 2.1 Filosofía (¿Qué busca?)
 La idea de Bootstrap es que tú puedas hacer una web súper rápido usando piezas que ya están hechas (los componentes). Piensa en esto:
 
-Es Mobile-First: Primero piensa en cómo se verá tu web en el celular. Si funciona bien ahí, solo tiene que crecer para verse bien en una tablet o computadora. 📱
+Es Mobile-First: Primero piensa en cómo se verá tu web en el celular. Si funciona bien ahí, solo tiene que crecer para verse bien en una tablet o computadora. 
 
 Kit de Componentes: Te da botones, menús, tarjetas... todo listo. Solo pones las clases (.btn-success) y ya se ven geniales.
 
@@ -37,7 +37,7 @@ Kit de Componentes: Te da botones, menús, tarjetas... todo listo. Solo pones la
 2.3 Pros y Contras
 Ventajas (Lo bueno de usar Bootstrap)
 
-Súper Rápido: Puedes armar una web responsiva (que se adapta a móviles) en horas, no en días, porque ya tienes casi todo hecho. (Ahorro de Tiempo ⏱️)
+Súper Rápido: Puedes armar una web responsiva (que se adapta a móviles) en horas, no en días, porque ya tienes casi todo hecho. (Ahorro de Tiempo )
 
 Todo se ve igual: Los estilos son consistentes, así que el diseño se ve profesional y ordenado en todas las páginas.
 
@@ -71,13 +71,13 @@ Tailwind: Te da las herramientas (.bg-blue-500, .p-4, .rounded-lg). Tienes que c
 .2 10 Clases de Utilidad de TailwindTailwind usa una notación corta que incluye valores (como 500 para un tono de color o 4 para un tamaño).Clase de TailwindEstilo CSS que AplicaCategoríabg-red-500background-color: #ef4444; (Rojo de tono medio)Colorestext-xlfont-size: 1.25rem; (line-height: 1.75rem;)Tipografíafont-boldfont-weight: 700;Tipografíam-4margin: 1rem; (Aplica 1rem de margen a todos los lados)Espaciadopy-6padding-top: 1.5rem; y padding-bottom: 1.5rem;Espaciadoflexdisplay: flex;Flexboxjustify-centerjustify-content: center; (Centra los elementos hijos horizontalmente)Flexboxitems-startalign-items: flex-start; (Alinea los elementos hijos al inicio verticalmente)Flexboxborderborder-width: 1px;Bordesrounded-lgborder-radius: 0.5rem;Bordes
 
 3.3 Pros y Contras
-Ventajas 👍 (Lo bueno de usar Tailwind)
+Ventajas  (Lo bueno de usar Tailwind)
 
 Cero Apariencia Genérica: Como tú construyes todo usando las clases pequeñas, tu diseño final siempre será único y no se parecerá al de otras webs.
 
-Archivos CSS Finales Pequeños: Tailwind elimina todos los estilos que no usaste en tu proyecto. El archivo final de CSS que el usuario descarga es mínimo, lo que hace que la web sea más rápida. 🚀
+Archivos CSS Finales Pequeños: Tailwind elimina todos los estilos que no usaste en tu proyecto. El archivo final de CSS que el usuario descarga es mínimo, lo que hace que la web sea más rápida. 
 
-Desventajas 👎 (Lo no tan bueno de usar Tailwind)
+Desventajas (Lo no tan bueno de usar Tailwind)
 
 HTML Abultado: Tienes que poner muchísimas clases en tus etiquetas HTML para estilizar algo. El código se vuelve largo y difícil de leer, ya que el diseño está mezclado con la estructura.
 
